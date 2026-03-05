@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-link
+.installed.cfg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data & Models (large files)
+data/raw/
+data/processed/
+outputs/models/*.pt
+outputs/models/*.pth
+outputs/models/*.weights
+outputs/predictions/
+outputs/logs/
+
+# Dataset folders
+Gas Flaring Detection.v15i.yolov8/
+flaring-gas-detection.v1i.yolov8/
+
+# Dataset archives
+*.zip
+*.tar.gz
+*.rar
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Weights & Biases / MLflow
+wandb/
+mlruns/
+
+# YOLO runs
+runs/
