@@ -27,35 +27,54 @@ ENV/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Data & Models (large files)
-data/raw/
-data/processed/
-outputs/models/*.pt
-outputs/models/*.pth
-outputs/models/*.weights
+# ── Model weights ────────────────────────────────────────────────────────────
+# Poids à la racine (modèles de base téléchargés)
+*.pt
+*.pth
+*.weights
+*.onnx
+*.torchscript
+
+# Poids générés dans outputs/
+outputs/models/
+
+# ── Outputs générés ──────────────────────────────────────────────────────────
 outputs/predictions/
 outputs/logs/
 
-# Dataset folders
+# Dossier runs/ créé automatiquement par Ultralytics (val, predict…)
+runs/
+
+# ── Données (trop lourdes pour git) ─────────────────────────────────────────
+# Tout data/ est ignoré sauf les .gitkeep qui preservent la structure des dossiers
+data/*
+!data/annotations/
+!data/annotations/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
+!data/raw/
+!data/raw/.gitkeep
+
+# ── Datasets Roboflow ────────────────────────────────────────────────────────
 Gas Flaring Detection.v15i.yolov8/
 flaring-gas-detection.v1i.yolov8/
 
-# Dataset archives
+# ── Archives ─────────────────────────────────────────────────────────────────
 *.zip
 *.tar.gz
 *.rar
 
-# IDE
+# ── IDE ──────────────────────────────────────────────────────────────────────
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
+# ── OS ───────────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
 
-# Weights & Biases / MLflow
+# ── MLOps ────────────────────────────────────────────────────────────────────
 wandb/
 mlruns/
 
