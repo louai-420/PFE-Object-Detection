@@ -1,0 +1,16 @@
+{
+  "split": "val",
+  "weights": "C:\\Users\\Rayan\\Desktop\\PFE-Object-Detection\\outputs\\models\\gas_flare_yolov8m_v2\\weights\\best.pt",
+  "conf_thres": 0.25,
+  "iou_thres": 0.45,
+  "mAP50": 0.9449,
+  "mAP50_95": 0.7242,
+  "per_class": {
+    "Dark-Flare": 0.7535,
+    "Dark-Smoke": 0.8213,
+    "Light-Flare": 0.7244,
+    "Light-Smoke": 0.7384,
+    "Medium-Flare": 0.6018,
+    "Medium-Smoke": 0.7058
+  }
+}

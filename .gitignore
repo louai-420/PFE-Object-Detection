@@ -35,13 +35,6 @@ ENV/
 *.onnx
 *.torchscript
 
-# Poids générés dans outputs/
-outputs/models/
-
-# ── Outputs générés ──────────────────────────────────────────────────────────
-outputs/predictions/
-outputs/logs/
-
 # Dossier runs/ créé automatiquement par Ultralytics (val, predict…)
 runs/
 
