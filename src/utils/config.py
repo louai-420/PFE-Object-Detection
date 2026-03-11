@@ -9,12 +9,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]   # PFE-Object-Detection/
 
 # ── Dataset ──────────────────────────────────────────────────────────────────
-DATA_YAML    = ROOT / "Gas Flaring Detection.v15i.yolov8" / "data_balanced.yaml"
-TEST_IMAGES  = ROOT / "Gas Flaring Detection.v15i.yolov8" / "test" / "images"
+DATA_YAML    = ROOT / "Gas Flaring Detection.v15i.yolov8" / "data3.yaml"
+TEST_IMAGES  = ROOT / "Gas Flaring Detection.v15i.yolov8" / "test3" / "images"
 
 # ── Model ────────────────────────────────────────────────────────────────────
-BEST_WEIGHTS    = ROOT / "outputs" / "models" / "gas_flare_yolov8m_v2" / "weights" / "best.pt"
-LAST_WEIGHTS    = ROOT / "outputs" / "models" / "gas_flare_yolov8m_v2" / "weights" / "last.pt"
+BEST_WEIGHTS    = ROOT / "outputs" / "models" / "gas_flare_yolov8m_v3" / "weights" / "best.pt"
+LAST_WEIGHTS    = ROOT / "outputs" / "models" / "gas_flare_yolov8m_v3" / "weights" / "last.pt"
 
 # ── Output dirs ──────────────────────────────────────────────────────────────
 OUTPUT_DIR      = ROOT / "outputs"

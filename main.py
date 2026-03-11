@@ -56,7 +56,7 @@ def main():
     args   = parser.parse_args()
 
     if args.command == "train":
-        from src.models.train import train
+        from src.models.train_v3 import train
         train()
 
     elif args.command == "predict":
