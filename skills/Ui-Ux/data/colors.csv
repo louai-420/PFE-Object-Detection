@@ -1,0 +1,98 @@
+
+Name,Primary,Secondary,CTA,Mood
+Indigo,#6366F1,#818CF8,#4F46E5,Modern SaaS
+Ocean,#0891B2,#22D3EE,#0E7490,Fintech
+Emerald,#059669,#34D399,#047857,Sustainability
+Rose,#E11D48,#FB7185,#BE123C,Fashion
+Amber,#D97706,#FBBF24,#B45309,Industrial
+Slate,#475569,#94A3B8,#1E293B,Enterprise
+Violet,#7C3AED,#A78BFA,#6D28D9,Creative
+Teal,#0D9488,#5EEAD4,#0F766E,Healthcare
+Fuchsia,#C026D3,#E879F9,#A21CAF,Glamour
+Midnight,#1E293B,#334155,#0F172A,Dark Mode Pro
+Crimson,#B91C1C,#EF4444,#991B1B,Bold Fashion / Streetwear
+Navy Blueprint,#1E3A5F,#3B82F6,#1E40AF,Enterprise Tech / B2B
+Forest,#14532D,#22C55E,#166534,Eco / Environmental
+Golden Hour,#78350F,#F59E0B,#92400E,Luxury / Premium Goods
+Lavender Calm,#5B21B6,#C4B5FD,#4C1D95,Mental Health / Therapy
+Coral Bloom,#BE185D,#FB7185,#9D174D,Beauty / Lifestyle
+Clean Mint,#065F46,#6EE7B7,#047857,Medical Devices / Pharma
+Rust & Ember,#92400E,#F97316,#7C2D12,Artisan Food / Craft Beer
+Steel Guard,#1E3A8A,#60A5FA,#1E40AF,Cybersecurity / DevOps
+Sunrise,#D97706,#FDE68A,#B45309,Consumer Lifestyle / Social
+Deep Space,#2E1065,#7C3AED,#1A0533,AI / Machine Learning
+Pink Blossom,#831843,#FBCFE8,#9D174D,Beauty Spa / Cosmetics
+Warm Concrete,#44403C,#D6D3D1,#292524,Architecture / Interior Design
+Electric Blue,#1D4ED8,#93C5FD,#1E3A8A,Tech Startup / Devtools
+Olive Grove,#3F6212,#84CC16,#365314,Agriculture / Organic
+Arctic Fjord,#075985,#BAE6FD,#0C4A6E,Travel / Nordic / Aviation
+Burgundy,#7F1D1D,#FCA5A5,#6B2121,Wine / Spirits / Hospitality
+Sage Mist,#365314,#BEF264,#3F6212,Wellness / Meditation
+Deep Ocean,#075985,#38BDF8,#0C4A6E,Marine / Ocean Tech
+Charcoal Frame,#1C1917,#A8A29E,#0C0A09,Photography / Cinema / Portfolio
+Saffron Spice,#78350F,#FDE047,#92400E,Food & Beverage / Cultural
+Antique Bronze,#78350F,#D97706,#451A03,Luxury Hotel / Hospitality
+Power Lime,#14532D,#4ADE80,#166534,Fitness / Sports / Gym
+Royal Trust,#1E3A5F,#2563EB,#172554,Financial Services / Banking
+Warm Peach,#C2410C,#FED7AA,#9A3412,Food Delivery / Fast Casual
+Monochrome,#0F172A,#64748B,#020617,Minimal Editorial / Blog
+Dusty Rose,#881337,#FCA5A5,#9F1239,Wedding / Events / Florists
+Deep Eco,#052E16,#16A34A,#14532D,NGO / Climate / Nonprofit
+Copper Forge,#7C2D12,#F97316,#431407,Construction / Manufacturing
+Sky High,#075985,#7DD3FC,#0369A1,Travel / Aviation / Cloud SaaS
+Warm Sand,#92400E,#FDE68A,#78350F,Real Estate / Property
+Ice Tech,#0C4A6E,#E0F2FE,#0369A1,Clean Tech / Smart Home
+Plum Noir,#4A044E,#E879F9,#581C87,Music / Entertainment / Nightlife
+Sunshine Kids,#713F12,#FDE047,#78350F,Kids / Childcare / EdTech
+Deep Crimson,#450A0A,#EF4444,#3B0808,Emergency Services / Medical Alert
+Seafoam Retreat,#0F766E,#5EEAD4,#134E4A,Wellness Spa / Retreat
+Black Gold,#0C0A09,#D97706,#1C1917,Premium / Luxury Dark UI
+Powder Trust,#1E40AF,#DBEAFE,#1E3A8A,Insurance / Finance / Trust
+Warm Editorial,#292524,#FEF3C7,#1C1917,Editorial / Journalism / Blog
+Crypto Glow,#1A0533,#A855F7,#2E1065,Crypto / Web3 / NFT
+Fresh Organic,#1A2E05,#84CC16,#365314,Health Food / Organic Market
+Terracotta Feast,#9A3412,#FB923C,#7C2D12,Restaurant / Food Brand
+Indigo Night,#1E1B4B,#818CF8,#12123A,SaaS Dark Mode / Analytics
+Blush Studio,#881337,#FECDD3,#9F1239,Cosmetics / Beauty Studio
+Deep Aqua,#042F2E,#14B8A6,#0F3D3B,HealthTech / MedTech
+Vibrant Launch,#7C2D12,#F97316,#431407,Startup / Scale-Up / Energy Brand
+Game Forest,#052E16,#4ADE80,#14532D,Gaming / Nature RPG
+Rose Gold Luxe,#9F1239,#FDA4AF,#881337,Premium Lifestyle / Jewelry
+Dev Dark,#0F172A,#3B82F6,#0C0F1A,Developer Tools / CLI
+Warm Apricot,#7C2D12,#FDBA74,#9A3412,Beauty / Wellness Warm
+Bright Cloud,#083344,#22D3EE,#164E63,Cloud Infrastructure / SaaS
+Deep Iris,#2E1065,#7C3AED,#1A0533,Data Analytics / BI
+Earth Craft,#292524,#A16207,#1C1917,Artisan / Handcraft / Marketplace
+Pharma Green,#022C22,#34D399,#064E3B,Pharmaceutical / Biotech
+Dark Luxe,#030712,#6B21A8,#020617,Premium Dark SaaS / FinTech Dark
+Ember Red,#450A0A,#F87171,#2D0808,Food Brand / Energy Drink
+Soft Petal,#4C1D95,#DDD6FE,#5B21B6,E-Learning / EdTech
+Nordic Ice,#075985,#CBD5E1,#0C4A6E,Scandinavian / Minimal Corporate
+Golden Sunset,#9A3412,#FB923C,#7C2D12,Social Media / Lifestyle Brand
+Cyber Dark,#020617,#1D4ED8,#030712,Cybersecurity Dark / Hacker Aesthetic
+Candy Coral,#831843,#FCA5A5,#9D174D,Consumer App / DTC Brand
+Healer Mint,#022C22,#6EE7B7,#064E3B,Pharmacy / Clinic / Dental
+Vintage Amber,#451A03,#FCD34D,#2C1001,Retro Brand / Vintage Store / Cafe
+Soft Healthcare,#075985,#BAE6FD,#0C4A6E,Patient-Facing Healthcare App
+Dark Orchid,#2E0749,#D946EF,#3B0764,Entertainment / Esports / Streaming
+Wild Leaf,#052E16,#86EFAC,#14532D,Nature / Eco Consumer Brand
+Chrome Edge,#0F172A,#CBD5E1,#020617,Automotive / Hardware / Robotics
+Espresso,#1C1917,#D97706,#0C0A09,Coffee Brand / Cafe Chain
+Blue Horizon,#1E1B4B,#818CF8,#12123A,AI SaaS Platform
+Neon Sprint,#052E16,#A3E635,#166534,Sports / Energy Drink / Gym
+Raspberry,#450A0A,#FB7185,#2D0808,Valentine / Romance / Dating App
+Deep B2B,#1E1B4B,#6366F1,#12123A,B2B SaaS / Enterprise Platform
+Harvest Olive,#1A2E05,#84CC16,#365314,AgriTech / Farming / Food Supply
+Dark Steel,#0F172A,#94A3B8,#020617,Industrial / Logistics / Supply Chain
+Aqua Marine,#042F2E,#22D3EE,#0F3D3B,Water Tech / Marine / Aqua SaaS
+Gen Z Pink,#3B0A1C,#F472B6,#500724,Gen Z Brand / Beauty / Social
+Deep Ember,#431407,#FB923C,#2C0A04,Construction / Trades / Energy
+Corporate Soft,#075985,#93C5FD,#0C4A6E,Corporate Web / HR / Professional Services
+Premium Dining,#3B0A1C,#E11D48,#500724,Fine Dining / Premium Restaurant
+Attention Yellow,#422006,#FDE047,#2C1500,Warning Systems / Accessibility / Safety UI
+Arctic Minimal,#1E293B,#E2E8F0,#0F172A,Clean Tech / White-Label SaaS
+BioGlow,#052E16,#4ADE80,#064E3B,Biotech / Life Sciences / Research
+Cobalt Analytics,#172554,#60A5FA,#0F172A,B2B Analytics / Data Platform
+Orchid Premium,#3B0A1C,#F0ABFC,#500724,Premium Cosmetics / Fragrance
+Ink Platform,#030712,#6366F1,#020617,Developer API Platform / CLI Tool
+Platinum Minimal,#0F172A,#E2E8F0,#020617,Luxury Minimal / High-End Portfolio

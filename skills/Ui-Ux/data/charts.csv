@@ -1,0 +1,49 @@
+Type,Purpose,Use Case
+Line,Trends over time for continuous data,Growth analytics / stock prices / temperature
+Bar,Comparisons between discrete categories,Revenue by region / product sales comparison
+Donut,Part-to-whole relationships with readable center space,Budget allocation / market share / survey results
+Scatter,Correlations and outliers between two variables,Ad spend vs revenue / scientific experiments
+Heatmap,Density or frequency across two categorical axes,User activity by hour & day / geographic intensity
+Area,Cumulative totals or stacked volumes over time,Network traffic / energy consumption trends
+Radar,Multivariate comparison across a common center,Player skill stats / product feature benchmarking
+Treemap,Hierarchical data proportionality as nested rectangles,Portfolio breakdown / file system usage / budget categories
+Sankey,Flow and movement between states with proportional width,"Supply chain flows, user funnels, energy transfer"
+Gantt,Timeline tasks and milestones across a horizontal axis,Project management / sprint planning / production schedule
+Word Cloud,Visual frequency weighting of terms,Sentiment analysis / survey responses / SEO keyword mapping
+Bubble,"Three dimensions encoded as x-position, y-position, and circle size",Demographics / market sizing / risk/impact analysis
+Waterfall,Cumulative positive and negative effects on a running total,Financial P&L statements / variance analysis
+Sparkline,Inline micro-trend indicator with no axes,Stock tickers / KPI dashboards / table row trends
+Box Plot,Distribution spread showing median quartiles and outliers,Statistical quality control / salary band analysis
+Histogram,Frequency distribution of continuous data across bins,Age distribution / response time analysis / test scores
+Pie Chart,Simple part-to-whole for 5 or fewer categories,Survey split / market share (small datasets only)
+Funnel,Stage-by-stage volume drop-off in a sequential process,Conversion funnel / recruitment pipeline / sales stages
+Stacked Bar,Part-to-whole composition across multiple categories over time,Revenue breakdown by product line / survey results by segment
+Grouped Bar,Side-by-side category comparison across multiple series,Monthly sales by region / A/B test results by cohort
+KPI Card,Single headline metric with trend indicator and target comparison,Sales dashboard / OKR tracking / real-time monitoring
+Gauge / Dial,Progress toward a single target shown on a circular arc,NPS score / capacity utilization / performance vs goal
+Bullet Chart,Single bar with target line and performance benchmark bands,Sales quota attainment / SLA compliance / quality metrics
+Choropleth Map,Geographic areas shaded by data value intensity,Election results / regional sales / population density
+Bubble Map,Geographic positions with circle size encoding a numeric value,City-level revenue / store footprint / event density
+Lollipop,Bar chart variant with dot-and-stem for cleaner dense comparisons,Long ranked lists / performance vs target across many items
+Slope Chart,Two-point line showing change between exactly two time periods,Before/after comparison / policy impact / year-over-year shift
+Stream Graph,Stacked area with organic flowing shape for temporal composition,Music listening trends / social media topic flow over time
+Sunburst,Hierarchical data as concentric rings radiating from center,Org chart / folder structure / taxonomic breakdown
+Chord Diagram,Circular flow connections between entities with arc thickness,Trade flows between countries / cross-team collaboration
+Network Graph,Nodes and edges showing relationships in a connected system,Social network analysis / dependency mapping / org relationships
+Population Pyramid,Back-to-back horizontal bars comparing two groups across categories,Age/gender demographics / cohort comparison
+Parallel Coordinates,Multi-axis lines showing multivariate data patterns,High-dimensional dataset exploration / car spec comparison
+Violin Plot,Kernel density distribution mirrored around a central axis,Statistical distribution comparison across groups / A/B testing
+Density Plot,Smoothed frequency curve of continuous variable distribution,Customer age distribution / latency distribution
+Candlestick / OHLC,Open-high-low-close price movement over time periods,Financial markets / crypto / trading dashboards
+Fan Chart,Line chart with confidence interval bands widening over time,Revenue forecasting / population projections / risk modeling
+Small Multiples,Grid of the same chart type repeated per category for comparison,Regional sales trends / per-product metrics / cohort behavior
+Marimekko / Mosaic,Two-dimensional proportional grid encoding two categorical variables,Market share by segment and size / survey cross-tabulation
+Waffle Chart,Square grid of cells where colored groups show percentages,Progress indicators / survey results / part-to-whole for non-technical audiences
+Pictogram / Unit Chart,Icon-per-unit grid encoding quantities as countable symbols,Public health data / humanitarian stats / accessible infographics
+Dumbbell Chart,Two endpoints on a horizontal axis showing difference between two values,Gender pay gap / before/after treatment effect / policy comparison
+Timeline,Events plotted chronologically on a horizontal or vertical axis,Product history / project milestones / biography
+Dot Plot,Individual data points along an axis without bar aggregation,Survey likert responses / precise value comparison / small datasets
+Heat Calendar,Calendar grid with cells colored by daily value intensity,GitHub contribution heatmap / daily revenue / habit tracking
+Circular Bar / Radial Bar,Bar chart wrapped around a central point in polar coordinates,Seasonal data / 24-hour activity / cyclical comparisons
+Arc / Progress Ring,Partial circle showing single metric progress toward completion,Onboarding completion / storage used / loading state UI
+Density Heatmap / 2D Histogram,Gridded color intensity showing joint distribution of two variables,Click maps / bivariate correlation / geospatial clustering

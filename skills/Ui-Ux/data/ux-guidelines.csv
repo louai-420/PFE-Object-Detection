@@ -1,0 +1,98 @@
+ID,Rule,Domain
+Clarity-1,Hierarchy must follow F-pattern for text-heavy pages.,General
+Motion-1,Keep micro-interactions under 200ms to avoid sluggishness.,Animation
+A11y-1,Contrast ratio must be 4.5:1 for standard text (3:1 for large text 18px+).,Accessibility
+Form-1,Group related fields and use vertical stacking.,Forms
+Z-Index-1,"Use a scale with consistent steps (100, 200, 300...) for layering.",Architecture
+Feedback-1,Confirm actions with toast or inline success states — never leave users guessing.,Interactions
+Button-1,Primary buttons should have distinct visual weight; only one primary CTA per screen.,UI
+Typography-1,Line height should be 1.5x font size for body text; 1.2x for headlines.,UI
+Z-Pattern,Use Z-pattern for pages with limited text and strong visual CTAs.,Layout
+8pt Grid,Use 8pt increments for all spacing and sizing to maintain visual rhythm.,System
+Proximity-1,Group related elements together; use whitespace to separate unrelated content.,Layout
+Consistency-1,Keep components visually and behaviorally identical across all screens and pages.,System
+Hick-1,"Reduce choices per screen (Hick's Law): more options = longer decision time. Aim for 5–7 max.",General
+Fitt-1,"Make tap/click targets large enough for their importance (Fitts's Law). Min 44x44pt on mobile, 32x32px on web.",UI
+Recognition-1,"Design for recognition not recall — show options, labels, and icons rather than requiring memorization.",General
+Feedback-2,Show system status at all times: loading indicators for >300ms operations; progress bars for >2s operations.,Interactions
+Error-1,"Error messages must say what went wrong, why, and exactly how to fix it. Never just 'Error occurred'.",Forms
+Onboard-1,Keep onboarding to 3 screens or fewer. Use progressive disclosure — teach by doing not by explaining.,Onboarding
+Mobile-1,"Minimum touch target size: 44x44pt iOS, 48x48dp Android. Never smaller.",Mobile
+Mobile-2,Place primary navigation in the thumb-friendly zone (bottom 40% of screen on mobile).,Mobile
+Mobile-3,Limit bottom navigation to 3–5 items. Use a drawer for secondary/infrequent items.,Navigation
+Skeleton-1,"Use skeleton screens instead of spinners for content-heavy loads. Skeleton screens reduce perceived wait time by 20–30%.",Loading
+Scroll-1,Infinite scroll is suitable for content feeds. Use pagination for task-completion interfaces (search results, e-commerce).,Navigation
+Color-1,"Use the 60-30-10 rule: 60% primary/neutral, 30% secondary, 10% accent.",Color
+Color-2,Never use color as the only differentiator for states or data — always pair with icon or label for accessibility.,Color
+Color-3,Dark mode: pure black (#000000) only on OLED. Use #121212 or #1A1A1A for most dark surfaces.,Color
+Whitespace-1,"Whitespace is not empty space — it is a design element. Increase whitespace around key CTAs to improve click-through.",Layout
+Typography-2,Limit a design to 2 font families maximum. Use weight and size variation to create hierarchy within a family.,Typography
+Typography-3,"Body text minimum: 16px on web, 14pt on mobile. Never go smaller for paragraph content.",Typography
+CTA-1,CTA buttons must contrast sharply with their background. Use action verbs: 'Start Free Trial' not 'Submit'.,UI
+CTA-2,Repeat the primary CTA at least twice on long pages — above the fold and after key social proof.,UI
+Gestalt-1,"Apply Gestalt principles: similarity, proximity, continuity, and closure guide visual grouping before any label does.",Layout
+A11y-2,"All interactive elements must have visible focus states — outline: 2px solid primary-color; outline-offset: 2px.",Accessibility
+A11y-3,Every image needs an alt attribute. Decorative images use alt='' to be ignored by screen readers.,Accessibility
+A11y-4,All form inputs need associated <label> elements — never rely on placeholder text as a label.,Accessibility
+A11y-5,"Modals must trap focus inside, restore focus on close, and dismiss on Escape key press.",Accessibility
+A11y-6,Provide a skip-to-main-content link as the first focusable element on every page.,Accessibility
+Motion-2,"Always wrap animations in @media (prefers-reduced-motion: reduce) and provide static alternatives.",Animation
+Motion-3,"Page transitions: 200–400ms ease-out. Entry animations: 150–300ms. Exit animations: 100–200ms.",Animation
+Motion-4,Never animate more than 2–3 CSS properties simultaneously — GPU handles transform and opacity best.,Animation
+Motion-5,Animations should serve a purpose: guide attention or communicate state change. Decorative-only motion adds cognitive load.,Animation
+Empty-1,"Never leave an empty state blank. Use a helpful message, illustration, and a clear next action.",Interactions
+Empty-2,"Empty state copy must be human: 'No messages yet — start a conversation!' not 'No data available'.",Interactions
+Modal-1,Modals are for urgent or critical information only. Never use modals for non-blocking content — use drawers or inline.,UI
+Modal-2,Always provide a clear visible close button on modals. Never require pressing Escape as the only close method.,UI
+Nav-1,"Navigation should answer 3 questions instantly: Where am I? Where can I go? How do I get back?",Navigation
+Nav-2,"Never hide high-frequency actions in hamburger menus on mobile. Reserve hamburgers for secondary, infrequent items.",Navigation
+Nav-3,"Breadcrumbs are required on sites with 3+ hierarchy levels. They reduce navigation errors by up to 39%.",Navigation
+Form-2,Validate inputs inline on blur (when user leaves the field) — never wait until form submission to show all errors.,Forms
+Form-3,"For long forms, show a progress bar and split into logical steps. Never show a form with more than 7 fields at once.",Forms
+Form-4,Auto-focus the first input field when a form opens. Provide sensible tab order (top-to-bottom left-to-right).,Forms
+Form-5,"Use smart defaults wherever possible — pre-fill known information, suggest the most likely option.",Forms
+Form-6,"Destructive actions (delete, remove) require confirmation — a dialog with the consequence clearly stated.",Forms
+Loading-1,"Show immediate feedback within 100ms of any user action — even a micro-animation signals the system heard the user.",Loading
+Loading-2,"For operations over 10 seconds, show a progress percentage or step count. Never show an infinite spinner for long tasks.",Loading
+Loading-3,"Lazy-load images and off-screen content. Use Intersection Observer, not scroll event listeners.",Loading
+Performance-1,"Perceived performance matters more than actual performance. Preload the next screen's data before the user navigates to it.",Performance
+Performance-2,"Target Core Web Vitals: LCP < 2.5s, INP < 200ms, CLS < 0.1. These directly correlate with conversion and retention.",Performance
+Dark-1,"Never use dark patterns. Specifically avoid: roach motel (easy in, hard out), confirmshaming, hidden costs, pre-ticked boxes.",Ethics
+Dark-2,"Cancellation must be as easy as signup. A cancel button must be accessible in 2 clicks or fewer.",Ethics
+Dark-3,Do not use artificial urgency or false scarcity (fake countdown timers or 'only 2 left' when untrue).,Ethics
+Trust-1,"Display trust signals near conversion points: security badges, testimonials, and money-back guarantees.",Conversion
+Trust-2,"Social proof is most effective near the CTA. Place review counts, logos, or user numbers directly above or below the primary action.",Conversion
+Onboard-2,The Aha Moment is the goal of onboarding. Every step must move the user closer to experiencing core value.,Onboarding
+Onboard-3,"Delay registration walls — let users experience value first. Apps that do this see up to 50% higher activation rates.",Onboarding
+Onboard-4,Provide a progress indicator for multi-step onboarding flows. Users who see progress are 40% more likely to complete.,Onboarding
+Cognitive-1,Cognitive load must be minimized. One primary action per screen. Remove every element that does not help the user complete their current task.,General
+Cognitive-2,"Apply progressive disclosure: show only what users need right now. Reveal complexity on demand, not upfront.",General
+Personalization-1,"Personalize interfaces using behavioral data: show recently used features, remember preferences, adapt content to context.",General
+Responsive-1,"Design mobile-first. Define breakpoints at 375px, 768px, 1024px, and 1440px. Test on real devices at every breakpoint.",Responsive
+Responsive-2,Never use fixed pixel widths for layout containers. Use fluid grids with max-width constraints.,Responsive
+Icon-1,Never use emojis as functional UI icons. Use SVG icon libraries (Heroicons, Lucide, Phosphor).,UI
+Icon-2,Icon-only buttons must have an aria-label and ideally a tooltip on hover. Never icon-only for critical actions.,UI
+Card-1,"Cards must have clearly defined boundaries (shadow, border, or background contrast) to signal interactivity.",UI
+Card-2,"Clickable cards need a visible hover state — background change, shadow elevation, or border highlight.",UI
+Table-1,"For data tables: freeze the header row on scroll, allow column sorting, and provide row hover highlighting.",UI
+Table-2,Align numbers right-justified in tables so decimal points line up for easy scanning.,Typography
+Search-1,Search inputs should support instant results (< 300ms debounce). Show helpful empty-state when no results are found.,UI
+Search-2,"Forgiving search: handle typos, synonyms, and partial matches. Never return zero results without a suggestion.",Interactions
+Notification-1,"Notifications must be dismissible and time-limited. Auto-dismiss success toasts after 3–5s. Error toasts persist until dismissed.",Interactions
+Notification-2,Limit notification types to 3: success (green) / warning (amber) / error (red). Never use 6+ color-coded states.,Color
+Spacing-1,Establish a spacing scale (4px base): 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 96. Never use arbitrary values.,System
+Spacing-2,Increase internal padding before increasing external margin — content inside a component needs breathing room first.,System
+Depth-1,Use elevation (shadow intensity) to communicate layer depth. Higher elevation = more important / closer to user.,UI
+Depth-2,"Consistent shadow scale: Level 1 (cards), Level 2 (dropdowns), Level 3 (modals), Level 4 (popovers).",Architecture
+Copy-1,"UI copy must be scannable: short sentences, active voice, second person ('You', 'Your'). Never passive or corporate.",General
+Copy-2,Button labels must be action verbs describing the outcome. 'Save Changes' not 'OK'. 'Delete Account' not 'Confirm'.,UI
+Copy-3,"Microcopy at friction points (payment, deletion, permissions) must be reassuring and specific about consequences.",General
+A11y-7,"Support keyboard-only navigation throughout. Tab order must follow visual reading order (top-left to bottom-right).",Accessibility
+A11y-8,"ARIA roles should complement semantic HTML, not replace it. Use <button> for buttons, not <div role='button'>.",Accessibility
+Platform-1,"On iOS, follow Human Interface Guidelines. On Android, follow Material Design 3. Never mix platform conventions in native apps.",Mobile
+Platform-2,"Respect platform-specific gestures: iOS swipe-left edge to go back, Android system back button. Never fight native conventions.",Mobile
+Density-1,"For information-dense UIs (dashboards, admin): use compact spacing with clear row dividers. For consumer: use generous whitespace.",Layout
+Testing-1,"Test designs with real users at every major milestone. A design not tested with users is a guess, not a decision.",Process
+Testing-2,"5 users can reveal 85% of usability issues. Run 5-participant tests iteratively rather than one large study.",Process
+Iteration-1,"Apply the 80/20 rule: 20% of UI changes deliver 80% of UX improvement. Focus on the highest-friction touchpoints first.",Process
+Consistency-2,Design systems prevent inconsistency. Every team building without a shared component library will ship different UX.,System

@@ -73,3 +73,44 @@ mlruns/
 
 # YOLO runs
 runs/
+
+# ── Outputs / modèles entraînés ──────────────────────────────────────────────
+# Poids des modèles entraînés (trop lourds — utiliser git-lfs si nécessaire)
+outputs/models/**/weights/
+outputs/models/**/*.pt
+outputs/models/**/*.pkl
+
+# Résultats d'évaluation générés automatiquement
+outputs/logs/
+outputs/plots/
+
+# ── Répertoire realtime ───────────────────────────────────────────────────────
+# Vidéos annotées (volumineuses)
+outputs/realtime/*.mp4
+outputs/realtime/*.avi
+# Logs CSV de détections (régénérables)
+outputs/realtime/*.csv
+
+# ── Classification ────────────────────────────────────────────────────────────
+# Modèles sauvegardés
+outputs/classification/**/*.pkl
+outputs/classification/**/*.pt
+# Figures générées (régénérables via les scripts)
+outputs/classification/**/*.png
+# Rapports texte (régénérables)
+outputs/classification/**/*.txt
+outputs/classification/**/*.json
+
+# ── Data ─────────────────────────────────────────────────────────────────────
+# Vidéos de test (téléchargeables via yt-dlp)
+data/*.mp4
+data/*.avi
+data/*.mov
+data/*.mkv
+# Frames de prévisualisation temporaires
+data/preview_*.jpg
+# ROI crops (extraites des datasets, régénérables)
+data/rois/
+
+# ── Modèles SVM / classifieurs ────────────────────────────────────────────────
+*.pkl

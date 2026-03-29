@@ -1,0 +1,14 @@
+{
+  "models": {
+    "v2 (YOLOv8m)": {
+      "mAP50": 0.9449,
+      "mAP50_95": 0.7242,
+      "split": "val (valid_balanced)"
+    },
+    "v3 (YOLOv8m + split 3-way)": {
+      "mAP50": 0.936,
+      "mAP50_95": 0.6973,
+      "split": "test3 (jamais vu)"
+    }
+  }
+}

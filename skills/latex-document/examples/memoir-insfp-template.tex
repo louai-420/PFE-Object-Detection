@@ -1,0 +1,163 @@
+% ============================================================
+% Template: Mémoire de fin de formation - INSFP Algérie
+% Compilation: xelatex (2 passes minimum)
+% ============================================================
+\documentclass[12pt,a4paper]{report}
+
+% --- Géométrie et espacement ---
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% --- En-tête / Pied de page ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\setlength{\headheight}{15pt}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% --- Détection du moteur ---
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\else
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+\fi
+
+% --- Packages essentiels ---
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\usepackage{longtable,booktabs,array}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\usepackage{bookmark}
+
+% --- Underline compatible XeLaTeX ---
+\ifPDFTeX
+  \usepackage{soul}
+\else
+  \newcommand{\ul}[1]{\underline{#1}}
+\fi
+
+% --- Profondeur de numérotation ---
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\begin{document}
+
+% ========================
+% PAGE DE GARDE
+% ========================
+\begin{titlepage}
+\centering
+\vspace*{1cm}
+{\Large \textbf{République Algérienne Démocratique et Populaire}}\\[0.3cm]
+{\large Ministère de la Formation et de l'Enseignement Professionnels}\\[0.5cm]
+{\Large \textbf{Institut National Spécialisé de Formation Professionnelle (INSFP)}}\\[1cm]
+\rule{\textwidth}{0.5pt}\\[0.5cm]
+{\large Mémoire de fin de formation pour l'obtention du diplôme de}\\[0.3cm]
+{\Large \textbf{Technicien Supérieur en Informatique}}\\[0.3cm]
+{\large \textbf{Option : Base de Données}}\\[0.5cm]
+\rule{\textwidth}{0.5pt}\\[1cm]
+{\LARGE \textbf{Thème :}}\\[0.5cm]
+{\Huge \textbf{Titre du Mémoire}}\\[1.5cm]
+
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Réalisé par :}\\
+--- NOM Prénom 1\\
+--- NOM Prénom 2
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Encadreur :}\\
+M./Mme NOM Prénom
+\end{minipage}
+
+\vfill
+{\large \textbf{Promotion : 2023 -- 2025}}
+\end{titlepage}
+
+% ========================
+% PAGES PRÉLIMINAIRES
+% ========================
+\chapter*{Remerciements}
+\addcontentsline{toc}{chapter}{Remerciements}
+% Contenu des remerciements...
+
+\chapter*{Dédicaces}
+\addcontentsline{toc}{chapter}{Dédicaces}
+% Contenu des dédicaces...
+
+% ========================
+% SOMMAIRE + LISTES
+% ========================
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+
+% ========================
+% INTRODUCTION GÉNÉRALE
+% ========================
+\newpage
+\chapter*{Introduction Générale}
+\addcontentsline{toc}{chapter}{Introduction Générale}
+% Contenu de l'introduction...
+
+% ========================
+% CHAPITRE 1
+% ========================
+\chapter{Présentation de l'Organisme d'Accueil}
+
+\section*{Introduction}
+% Introduction du chapitre...
+
+\section{Section 1.1}
+\subsection{Sous-section 1.1.1}
+
+\section*{Conclusion du Chapitre}
+
+% ========================
+% CHAPITRE 2
+% ========================
+\chapter{Étude de l'Existant}
+\section*{Introduction}
+\section{Étude des Postes de Travail}
+\section*{Conclusion du Chapitre}
+
+% ========================
+% CHAPITRE 3
+% ========================
+\chapter{Conception du Nouveau Système}
+\section*{Introduction}
+\section{Solution Informatique Projetée}
+\section*{Conclusion du Chapitre}
+
+% ========================
+% CHAPITRE 4
+% ========================
+\chapter{Réalisation du Système}
+\section*{Introduction}
+\section{Outils et Langages}
+\section*{Conclusion du Chapitre}
+
+% ========================
+% CONCLUSION GÉNÉRALE
+% ========================
+\chapter*{Conclusion Générale}
+\addcontentsline{toc}{chapter}{Conclusion Générale}
+% Contenu de la conclusion...
+
+% ========================
+% BIBLIOGRAPHIE
+% ========================
+\chapter*{Bibliographie}
+\addcontentsline{toc}{chapter}{Bibliographie}
+% Références...
+
+\end{document}

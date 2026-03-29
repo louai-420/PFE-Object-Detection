@@ -1,0 +1,1852 @@
+[
+  {
+    "industry": "SaaS",
+    "keywords": [
+      "saas",
+      "platform",
+      "app"
+    ],
+    "pattern": "Hero-Centric",
+    "style": "Minimalist",
+    "colors": {
+      "primary": "#6366F1",
+      "secondary": "#FFFFFF",
+      "cta": "#8B5CF6"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": [
+      "No dark mode by default",
+      "High contrast labels"
+    ]
+  },
+  {
+    "industry": "Fintech",
+    "keywords": [
+      "fintech",
+      "platform",
+      "app"
+    ],
+    "pattern": "Hero-Centric",
+    "style": "Glassmorphism",
+    "colors": {
+      "primary": "#6366F1",
+      "secondary": "#FFFFFF",
+      "cta": "#8B5CF6"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": [
+      "No dark mode by default",
+      "High contrast labels"
+    ]
+  },
+  {
+    "industry": "Healthcare",
+    "keywords": [
+      "healthcare",
+      "platform",
+      "app"
+    ],
+    "pattern": "Hero-Centric",
+    "style": "Minimalist",
+    "colors": {
+      "primary": "#6366F1",
+      "secondary": "#FFFFFF",
+      "cta": "#8B5CF6"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": [
+      "No dark mode by default",
+      "High contrast labels"
+    ]
+  },
+  {
+    "industry": "E-commerce",
+    "keywords": [
+      "e-commerce",
+      "platform",
+      "app"
+    ],
+    "pattern": "Hero-Centric",
+    "style": "Minimalist",
+    "colors": {
+      "primary": "#6366F1",
+      "secondary": "#FFFFFF",
+      "cta": "#8B5CF6"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": [
+      "No dark mode by default",
+      "High contrast labels"
+    ]
+  },
+  {
+    "industry": "Luxury",
+    "keywords": [
+      "luxury",
+      "platform",
+      "app"
+    ],
+    "pattern": "Hero-Centric",
+    "style": "Minimalist",
+    "colors": {
+      "primary": "#6366F1",
+      "secondary": "#FFFFFF",
+      "cta": "#8B5CF6"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": [
+      "No dark mode by default",
+      "High contrast labels"
+    ]
+  },
+  {
+    "industry": "Crypto",
+    "keywords": [
+      "crypto",
+      "platform",
+      "app"
+    ],
+    "pattern": "Hero-Centric",
+    "style": "Minimalist",
+    "colors": {
+      "primary": "#6366F1",
+      "secondary": "#FFFFFF",
+      "cta": "#8B5CF6"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": [
+      "No dark mode by default",
+      "High contrast labels"
+    ]
+  },
+  {
+    "industry": "DevTools",
+    "keywords": [
+      "devtools",
+      "platform",
+      "app"
+    ],
+    "pattern": "Hero-Centric",
+    "style": "Minimalist",
+    "colors": {
+      "primary": "#6366F1",
+      "secondary": "#FFFFFF",
+      "cta": "#8B5CF6"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": [
+      "No dark mode by default",
+      "High contrast labels"
+    ]
+  },
+  {
+    "industry": "Education",
+    "keywords": [
+      "education",
+      "platform",
+      "app"
+    ],
+    "pattern": "Hero-Centric",
+    "style": "Minimalist",
+    "colors": {
+      "primary": "#6366F1",
+      "secondary": "#FFFFFF",
+      "cta": "#8B5CF6"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": [
+      "No dark mode by default",
+      "High contrast labels"
+    ]
+  },
+  {
+    "industry": "Real Estate",
+    "keywords": [
+      "real estate",
+      "platform",
+      "app"
+    ],
+    "pattern": "Hero-Centric",
+    "style": "Minimalist",
+    "colors": {
+      "primary": "#6366F1",
+      "secondary": "#FFFFFF",
+      "cta": "#8B5CF6"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": [
+      "No dark mode by default",
+      "High contrast labels"
+    ]
+  },
+  {
+    "industry": "Beauty",
+    "keywords": [
+      "beauty",
+      "platform",
+      "app"
+    ],
+    "pattern": "Hero-Centric",
+    "style": "Minimalist",
+    "colors": {
+      "primary": "#6366F1",
+      "secondary": "#FFFFFF",
+      "cta": "#8B5CF6"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": [
+      "No dark mode by default",
+      "High contrast labels"
+    ]
+  },
+  {
+    "industry": "Industry 11",
+    "keywords": [
+      "keyword11"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 12",
+    "keywords": [
+      "keyword12"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 13",
+    "keywords": [
+      "keyword13"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 14",
+    "keywords": [
+      "keyword14"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 15",
+    "keywords": [
+      "keyword15"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 16",
+    "keywords": [
+      "keyword16"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 17",
+    "keywords": [
+      "keyword17"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 18",
+    "keywords": [
+      "keyword18"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 19",
+    "keywords": [
+      "keyword19"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 20",
+    "keywords": [
+      "keyword20"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 21",
+    "keywords": [
+      "keyword21"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 22",
+    "keywords": [
+      "keyword22"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 23",
+    "keywords": [
+      "keyword23"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 24",
+    "keywords": [
+      "keyword24"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 25",
+    "keywords": [
+      "keyword25"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 26",
+    "keywords": [
+      "keyword26"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 27",
+    "keywords": [
+      "keyword27"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 28",
+    "keywords": [
+      "keyword28"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 29",
+    "keywords": [
+      "keyword29"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 30",
+    "keywords": [
+      "keyword30"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 31",
+    "keywords": [
+      "keyword31"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 32",
+    "keywords": [
+      "keyword32"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 33",
+    "keywords": [
+      "keyword33"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 34",
+    "keywords": [
+      "keyword34"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 35",
+    "keywords": [
+      "keyword35"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 36",
+    "keywords": [
+      "keyword36"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 37",
+    "keywords": [
+      "keyword37"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 38",
+    "keywords": [
+      "keyword38"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 39",
+    "keywords": [
+      "keyword39"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 40",
+    "keywords": [
+      "keyword40"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 41",
+    "keywords": [
+      "keyword41"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 42",
+    "keywords": [
+      "keyword42"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 43",
+    "keywords": [
+      "keyword43"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 44",
+    "keywords": [
+      "keyword44"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 45",
+    "keywords": [
+      "keyword45"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 46",
+    "keywords": [
+      "keyword46"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 47",
+    "keywords": [
+      "keyword47"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 48",
+    "keywords": [
+      "keyword48"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 49",
+    "keywords": [
+      "keyword49"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 50",
+    "keywords": [
+      "keyword50"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 51",
+    "keywords": [
+      "keyword51"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 52",
+    "keywords": [
+      "keyword52"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 53",
+    "keywords": [
+      "keyword53"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 54",
+    "keywords": [
+      "keyword54"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 55",
+    "keywords": [
+      "keyword55"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 56",
+    "keywords": [
+      "keyword56"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 57",
+    "keywords": [
+      "keyword57"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 58",
+    "keywords": [
+      "keyword58"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 59",
+    "keywords": [
+      "keyword59"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 60",
+    "keywords": [
+      "keyword60"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 61",
+    "keywords": [
+      "keyword61"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 62",
+    "keywords": [
+      "keyword62"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 63",
+    "keywords": [
+      "keyword63"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 64",
+    "keywords": [
+      "keyword64"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 65",
+    "keywords": [
+      "keyword65"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 66",
+    "keywords": [
+      "keyword66"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 67",
+    "keywords": [
+      "keyword67"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 68",
+    "keywords": [
+      "keyword68"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 69",
+    "keywords": [
+      "keyword69"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 70",
+    "keywords": [
+      "keyword70"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 71",
+    "keywords": [
+      "keyword71"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 72",
+    "keywords": [
+      "keyword72"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 73",
+    "keywords": [
+      "keyword73"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 74",
+    "keywords": [
+      "keyword74"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 75",
+    "keywords": [
+      "keyword75"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 76",
+    "keywords": [
+      "keyword76"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 77",
+    "keywords": [
+      "keyword77"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 78",
+    "keywords": [
+      "keyword78"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 79",
+    "keywords": [
+      "keyword79"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 80",
+    "keywords": [
+      "keyword80"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 81",
+    "keywords": [
+      "keyword81"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 82",
+    "keywords": [
+      "keyword82"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 83",
+    "keywords": [
+      "keyword83"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 84",
+    "keywords": [
+      "keyword84"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 85",
+    "keywords": [
+      "keyword85"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 86",
+    "keywords": [
+      "keyword86"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 87",
+    "keywords": [
+      "keyword87"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 88",
+    "keywords": [
+      "keyword88"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 89",
+    "keywords": [
+      "keyword89"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 90",
+    "keywords": [
+      "keyword90"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 91",
+    "keywords": [
+      "keyword91"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 92",
+    "keywords": [
+      "keyword92"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 93",
+    "keywords": [
+      "keyword93"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 94",
+    "keywords": [
+      "keyword94"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 95",
+    "keywords": [
+      "keyword95"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 96",
+    "keywords": [
+      "keyword96"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 97",
+    "keywords": [
+      "keyword97"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 98",
+    "keywords": [
+      "keyword98"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 99",
+    "keywords": [
+      "keyword99"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  },
+  {
+    "industry": "Industry 100",
+    "keywords": [
+      "keyword100"
+    ],
+    "pattern": "General",
+    "style": "Modern",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "cta": "#FF0000"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "constraints": []
+  }
+]

@@ -1,0 +1,70 @@
+Name,Description,BestFor
+Glassmorphism,"Frosted glass, backdrop blur, white borders","SaaS, modern dashboards"
+Neumorphism,"Soft extruded shadows, low contrast",Wellness apps
+Claymorphism,"Large border-radius, thick shadows, 3D effect",Educational apps
+Aurora UI,"Vibrant mesh gradients, soft flows",Creative agencies
+Neubrutalism,"Hard shadows, bold borders, high contrast",Developer tools
+Material Design 3,"Dynamic color, rounded corners",Android apps
+Flat Design 2.0,"Clean, no shadows, vibrant colors",General web
+Minimalist Swiss,"Grid-based, strong typography",Enterprise B2B
+Cyberpunk,"Neon glows, dark glitchy textures","Gaming, NFT"
+Skeuomorphism,Realistic textures like leather/metal,Retro apps
+Bento Box,Grid of rounded cards with varying sizes,Product showcase
+Liquid Design,"Organic shapes, fluid transitions",Brand sites
+Pixel Art,Retro game aesthetic,Indie games
+Dark Mode (OLED),"Pure black backgrounds, high contrast text",Dev tools
+Brutalism,"Unfinished, raw, non-traditional layout",Art portfolios
+Isometric,3D perspective on 2D plane,Tech marketing
+Glassy Dark,Dark backdrop blur with neon accents,Fintech
+Soft UI,Subtle gradients and soft rounded corners,Consumer SaaS
+High-Contrast,Pure black and white with high readability,Accessibility-first
+Vintage,"Muted colors, grain, serif fonts","Coffee shops, history"
+Abstract Geometric,"Strong shapes, bold primary colors",Architectural firms
+Illustrative,Hand-drawn elements as core UI,Lifestyle apps
+Typographic,Type as the primary visual element,"News, blogs"
+Functional,"Industrial, focus on usability/logic",Scientific tools
+Monospaced,Code-like aesthetic,Developer platforms
+Pastel,"Soft hues, calming effect",Kids products
+Futuristic,"Sci-fi interfaces, HUD elements",AI products
+Gradient-First,Vibrant colors merging,Social media
+Duotone,Two-color filtering on all images,Music apps
+Glassy Rainbow,Multi-colored glass effects,Creative tools
+Bauhaus,"Geometric shapes, primary colors, grid-based, form follows function","Dashboards, design tools, portfolio sites"
+Motion-First,"Animation as core UI language, transitions carry meaning","Portfolio sites, storytelling brands"
+Grain & Texture,"Subtle noise overlays, handcrafted organic feel, film grain","Editorial sites, indie brands, food & lifestyle"
+Japandi,"Japanese minimalism meets Scandinavian function, neutral tones, natural materials","Wellness, home decor, meditation apps"
+Memphis Design,"Bold geometric shapes, primary colors, squiggles, anti-grid, rebellious","Youth brands, music, creative agencies"
+Vaporwave,"Pastel neons, VHS glitch, classical statues, retro-web nostalgia, Japanese text","Indie music, art, anti-establishment design"
+Solarpunk,"Biophilic shapes, lush greenery, eco-futurism, warm naturalistic color","Sustainability brands, green tech, eco platforms"
+Cottagecore,"Florals, gingham, hand-drawn textures, warm rural nostalgia","Lifestyle blogs, recipe sites, rustic brands"
+Liquid Glass,"Translucent layered surfaces, light refraction, fluid depth (Apple 2026 aesthetic)","Premium SaaS, iOS-native apps, high-end e-commerce"
+Spatial UI,"Floating windows, depth planes, gaze-aware layouts for XR devices","VisionOS apps, AR/VR interfaces, spatial computing"
+E-Ink / Paper,"Low contrast, ink-like rendering, no shadows, print aesthetic","Reading apps, digital newspapers, e-readers"
+Data Visualization,"Charts and graphs as primary design element, dense information architecture","Analytics tools, BI dashboards, fintech"
+Functional Art,"Every UI element is beautiful and purposeful, aesthetics enhance usability","Premium apps, design-led SaaS, award-winning sites"
+Asymmetric Layout,"Intentional imbalance, overlapping elements, editorial tension","Fashion brands, luxury, avant-garde portfolios"
+Microinteraction-First,"Feedback animations, hover states, and transitions as core identity","Mobile apps, consumer SaaS, touchscreen UIs"
+AI-Adaptive UI,"Dynamic layouts that change with user behavior, personalized surfaces","AI products, streaming apps, recommendation engines"
+Pop Art,"Ben-Day dots, bold outlines, primary colors, comic speech bubbles","Pop culture campaigns, retail, fashion"
+Art Deco Digital,"Geometric symmetry, gold accents, sharp angular ornaments, luxury grid","Luxury brands, event sites, fashion editorials"
+Y2K Revival,"Chrome gradients, early-internet glossy buttons, butterfly clips aesthetic","Gen Z fashion brands, nostalgia-first campaigns"
+Techwear / Tactical,"Utility-first, dark muted palette, technical typography, modular grid","Outdoor gear, hardware products, tactical brands"
+Maximalism,"More is more, layered patterns, dense color, rich visual chaos","Entertainment, music artists, high-energy campaigns"
+Wabi-Sabi,"Imperfection as beauty, raw textures, muted organic tones, asymmetry","Artisan brands, pottery, handmade goods, luxury"
+Dark Fantasy,"Deep purples and blacks, ethereal glows, mystical ornament","Gaming, fantasy entertainment, occult/wellness"
+Neon Noir,"Dark cinematic palette with stark neon highlights, moody atmosphere","Film sites, cocktail bars, urban lifestyle brands"
+Eco / Sustainable Design,"Low-energy palettes, reduced motion, ethical minimalism, green palette","Sustainability startups, government, NGOs"
+Retro Terminal,"Green or amber on black, monospace font, command-line aesthetics","Dev tools, hacker culture, security platforms"
+HUD / FUI,"Heads-Up Display, targeting reticles, data overlays, sci-fi readouts","Cybersecurity, space tech, military simulation"
+Manga / Anime-Inspired,"Bold ink outlines, speed lines, expressive type, vibrant saturated fills","Gaming, anime platforms, Japanese-market apps"
+Chromatic / Color Theory-First,"Single hue with controlled tints and shades, strict color harmony","Brand-forward sites, design agencies, luxury"
+Typographic Maximalism,"Giant overlapping headlines, type as image, expressive font mixing","Fashion editorials, art direction, bold campaigns"
+Zero UI / Invisible Design,"Voice, gesture, and AI-first with minimal visual chrome","Smart home, wearables, voice assistants, AR"
+Material Expressive,"Google's 2025 evolution of Material Design — dynamic motion, tactile response, shape morphing","Android apps, Google ecosystem products"
+Indie Web / Personal Web,"Raw personal HTML aesthetic, links lists, low-fi charm, web-ring nostalgia","Personal blogs, indie developers, digital gardens"
+Ditherpunk,"Pixel-level dithering patterns instead of smooth gradients, retro-printout aesthetic","Indie games, zines, experimental creative tools"
+Grunge Typography,"Distressed fonts, torn textures, spray-paint overlays, rebellious energy","Streetwear, punk music, skate culture"
+Aurora Borealis,"Deep dark backgrounds with flowing northern lights color washes","Premium tech, creative studios, immersive hero sections"
+Organic Biomorphic,"Cell-like blobs, amoeba shapes, natural irregular curves","Biotech, health innovation, science communication"
+Kinetic Typography,"Text itself animates to carry emotion and narrative","Hero sections, product launches, brand manifestos"
+Victoriana Digital,"Ornate serif fonts, damask patterns, deep reds and greens, gilded detail","Heritage brands, tea/spirits, museum experiences"
