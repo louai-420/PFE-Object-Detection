@@ -28,12 +28,22 @@ ENV/
 *.ipynb_checkpoints
 
 # ── Model weights ────────────────────────────────────────────────────────────
-# Poids à la racine (modèles de base téléchargés)
-*.pt
-*.pth
+# Ignorer les poids generiques telechargés (yolov8n.pt, yolov8s.pt etc. a la racine)
 *.weights
 *.onnx
 *.torchscript
+# Ignorer last.pt partout (checkpoint non-final)
+**/last.pt
+# Ignorer les checkpoints d'epochs (epoch0.pt, epoch10.pt... trop lourds)
+**/epoch*.pt
+# Ignorer les modeles pre-entraines bruts (pas nos modeles finetunes)
+yolov8*.pt
+yolo*.pt
+# MAIS garder nos modeles entraines specifiques :
+!outputs/models/gas_flare_yolov8m_v3/weights/best.pt
+!outputs/classification/svm/svm_model.pkl
+!outputs/classification/cnn/best_model.pt
+!outputs/classification/hybrid/hybrid_svm_model.pkl
 
 # Dossier runs/ créé automatiquement par Ultralytics (val, predict…)
 runs/
@@ -75,42 +85,45 @@ mlruns/
 runs/
 
 # ── Outputs / modèles entraînés ──────────────────────────────────────────────
-# Poids des modèles entraînés (trop lourds — utiliser git-lfs si nécessaire)
-outputs/models/**/weights/
-outputs/models/**/*.pt
-outputs/models/**/*.pkl
+# Ignorer last.pt (trop lourd et non final), garder best.pt pour reproduire
+outputs/models/**/weights/last.pt
+# Ignorer les modèles intermédiaires (v1, v2 etc.) — garder seulement v3
+outputs/models/gas_flare_yolov8m_v2/
+outputs/models/gas_flare_yolov8s/
+# Garder le meilleur modèle final (v3/best.pt — 49.6 MB, sous limite GitHub)
+# outputs/models/gas_flare_yolov8m_v3/weights/best.pt  <-- COMMITÉ
 
-# Résultats d'évaluation générés automatiquement
+# Résultats d'évaluation auto-générés (logs CSV, plots bruts)
 outputs/logs/
 outputs/plots/
 
 # ── Répertoire realtime ───────────────────────────────────────────────────────
-# Vidéos annotées (volumineuses)
+# Vidéos annotées de sortie (trop lourdes, régénérables)
 outputs/realtime/*.mp4
 outputs/realtime/*.avi
 # Logs CSV de détections (régénérables)
 outputs/realtime/*.csv
 
-# ── Classification ────────────────────────────────────────────────────────────
-# Modèles sauvegardés
-outputs/classification/**/*.pkl
-outputs/classification/**/*.pt
-# Figures générées (régénérables via les scripts)
+# ── Classification — garder les modèles, ignorer les outputs régénérables ─────
+# Figures PNG (régénérables via les scripts)
 outputs/classification/**/*.png
 # Rapports texte (régénérables)
-outputs/classification/**/*.txt
-outputs/classification/**/*.json
+outputs/classification/svm/ablation_results.txt
+outputs/classification/svm/classification_report.txt
+outputs/classification/cnn/classification_report.txt
+outputs/classification/hybrid/classification_report.txt
+# Garder les modèles classifieurs (nécessaires pour exécuter le pipeline) :
+# outputs/classification/svm/svm_model.pkl       <-- COMMITÉ (1.5 MB)
+# outputs/classification/cnn/best_model.pt       <-- COMMITÉ (15.6 MB)
+# outputs/classification/hybrid/hybrid_svm_model.pkl <-- COMMITÉ (29.5 MB)
 
 # ── Data ─────────────────────────────────────────────────────────────────────
-# Vidéos de test (téléchargeables via yt-dlp)
+# Vidéos de test (téléchargeables via yt-dlp ou fournies séparément)
 data/*.mp4
 data/*.avi
 data/*.mov
 data/*.mkv
 # Frames de prévisualisation temporaires
 data/preview_*.jpg
-# ROI crops (extraites des datasets, régénérables)
+# ROI crops (extraites des datasets, régénérables avec extract_rois.py)
 data/rois/
-
-# ── Modèles SVM / classifieurs ────────────────────────────────────────────────
-*.pkl
