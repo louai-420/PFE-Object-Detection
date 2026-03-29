@@ -1,0 +1,22 @@
+{
+  "task": "Classification qualité de combustion",
+  "classes": [
+    "bonne",
+    "moyenne",
+    "mauvaise"
+  ],
+  "results": {
+    "SVM (Features manuelles)": {
+      "f1_macro": 0.958,
+      "accuracy": 0.9778
+    },
+    "CNN (EfficientNet-B0)": {
+      "accuracy": 0.9487,
+      "f1_macro": 0.915
+    },
+    "Hybride (CNN+SVM)": {
+      "accuracy": 0.9728,
+      "f1_macro": 0.9494
+    }
+  }
+}

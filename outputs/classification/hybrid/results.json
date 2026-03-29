@@ -1,0 +1,10 @@
+{
+  "approach": "hybrid_cnn_svm",
+  "accuracy": 0.9728,
+  "f1_macro": 0.9494,
+  "best_params": {
+    "svm__C": 100,
+    "svm__gamma": "scale"
+  },
+  "cv_f1": 0.9291
+}

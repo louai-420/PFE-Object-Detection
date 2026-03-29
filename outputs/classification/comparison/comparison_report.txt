@@ -1,0 +1,9 @@
+Comparaison des approches de classification
+==========================================================
+
+Approche                       |   Accuracy |   F1-macro
+----------------------------------------------------------
+SVM (Features manuelles)       |     0.9778 |     0.9580
+CNN (EfficientNet-B0)          |     0.9487 |     0.9150
+Hybride (CNN+SVM)              |     0.9728 |     0.9494
+----------------------------------------------------------

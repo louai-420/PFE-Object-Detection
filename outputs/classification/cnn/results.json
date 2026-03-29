@@ -1,0 +1,8 @@
+{
+  "approach": "cnn_efficientnet_b0",
+  "accuracy": 0.9487,
+  "f1_macro": 0.915,
+  "best_val_acc": 0.9527,
+  "epochs_trained": 30,
+  "device": "cuda"
+}
