@@ -3,7 +3,7 @@ Main entry point for the Gas Flare Detection project.
 
 Commands
 --------
-train    -- Train the YOLOv8s model from scratch.
+train    -- Train the YOLO11m model from scratch.
 predict  -- Run inference on an image / folder / video.
 evaluate -- Evaluate the trained model on a dataset split.
 
@@ -23,7 +23,7 @@ import sys
 def _build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="main.py",
-        description="Gas Flare Detection – YOLOv8s",
+        description="Gas Flare Detection – YOLO11m",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     subparsers = parser.add_subparsers(dest="command", required=True)

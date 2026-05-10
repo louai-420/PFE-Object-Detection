@@ -15,7 +15,7 @@ Dans l'industrie petroliere et gaziere, les torcheres (gas flares) sont utilisee
 ## Objectifs
 
 1. Detecter automatiquement les torcheres dans des images RGB ou des videos.
-2. Localiser les flammes via un modele de detection d'objets (YOLOv8).
+2. Localiser les flammes via un modele de detection d'objets (YOLO11m).
 3. Analyser visuellement la combustion (couleur, fumee, intensite).
 4. Evaluer et classifier la qualite de combustion : bonne / moyenne / mauvaise combustion.
 5. Evaluer les modeles avec mAP, Precision, Recall, F1-score.

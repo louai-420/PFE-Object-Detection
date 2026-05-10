@@ -17,7 +17,7 @@ from src.utils.config import (
 
 class GasFlareDector:
     """
-    Wrapper around a trained YOLOv8 model for gas flare / smoke detection.
+    Wrapper around a trained YOLO model for gas flare / smoke detection.
 
     Parameters
     ----------

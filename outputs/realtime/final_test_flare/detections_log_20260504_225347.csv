@@ -1,0 +1,2 @@
+frame_idx,timestamp_sec,torchere,class_name,confidence,qualite,x1,y1,x2,y2,dark_ratio,flame_ratio,smoke_ratio,mean_intensity
+1330,53.200,Torchere A,Light-Flare,0.4295,bonne,303,42,321,136,0.0,0.0,0.076,0.82

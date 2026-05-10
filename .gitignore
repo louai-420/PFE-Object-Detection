@@ -127,3 +127,6 @@ data/*.mkv
 data/preview_*.jpg
 # ROI crops (extraites des datasets, régénérables avec extract_rois.py)
 data/rois/
+
+# Vidéos MP4
+*.mp4

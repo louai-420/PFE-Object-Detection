@@ -1,9 +1,9 @@
 """
-Analyse et visualisation des résultats d'entraînement YOLOv8.
+Analyse et visualisation des résultats d'entraînement YOLO (v8/v11).
 
 Génère :
   1. Courbes enrichies (loss, mAP, P/R) pour chaque version de modèle
-  2. Graphique comparatif multi-modèles (v1=yolov8s, v2=yolov8m, v3=yolov8m+split)
+    2. Graphique comparatif multi-modèles (v8 et v11)
   3. Tableau de métriques finales
   4. Rapport JSON de synthèse
 
@@ -28,13 +28,14 @@ OUTPUT = ROOT / "outputs" / "analysis"
 
 # Chemins des CSV d'entraînement pour chaque version
 MODEL_RUNS = {
+    "v4 (YOLO11m + split 3-way)": ROOT / "outputs" / "models" / "gas_flare_yolo11m_v1" / "results.csv",
     "v1 (YOLOv8s)": ROOT / "outputs" / "models" / "gas_flare_yolov8s" / "results.csv",
     "v2 (YOLOv8m)": ROOT / "outputs" / "models" / "gas_flare_yolov8m_v2" / "results.csv",
     "v3 (YOLOv8m + split 3-way)": ROOT / "outputs" / "models" / "gas_flare_yolov8m_v3" / "results.csv",
 }
 
-# Résultats d'évaluation sur test (depuis les JSON)
-EVAL_RESULTS = {
+# Résultats historiques d'évaluation sur test (complétés dynamiquement via outputs/logs/eval_*.json)
+EVAL_RESULTS_BASE = {
     "v2 (YOLOv8m)": {
         "mAP50": 0.9449, "mAP50_95": 0.7242,
         "split": "val (valid_balanced)",
@@ -46,10 +47,60 @@ EVAL_RESULTS = {
 }
 
 COLORS = {
+    "v4 (YOLO11m + split 3-way)": "#8e44ad",
     "v1 (YOLOv8s)": "#e67e22",
     "v2 (YOLOv8m)": "#3498db",
     "v3 (YOLOv8m + split 3-way)": "#2ecc71",
 }
+
+
+def discover_eval_results() -> dict[str, dict]:
+    """Découvre automatiquement les derniers résultats d'évaluation par run depuis outputs/logs."""
+    logs_dir = ROOT / "outputs" / "logs"
+    if not logs_dir.exists():
+        return {}
+
+    run_name_by_label = {
+        label: csv_path.parent.name
+        for label, csv_path in MODEL_RUNS.items()
+    }
+    discovered: dict[str, dict] = {}
+
+    eval_json_paths = sorted(
+        logs_dir.glob("eval_*.json"),
+        key=lambda p: p.stat().st_mtime,
+        reverse=True,
+    )
+
+    for json_path in eval_json_paths:
+        try:
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+
+        weights = str(payload.get("weights", ""))
+        for label, run_name in run_name_by_label.items():
+            if run_name in weights and label not in discovered:
+                map50 = payload.get("mAP50")
+                map5095 = payload.get("mAP50_95")
+                if map50 is None or map5095 is None:
+                    continue
+
+                discovered[label] = {
+                    "mAP50": float(map50),
+                    "mAP50_95": float(map5095),
+                    "split": str(payload.get("split", "?")),
+                }
+                break
+
+    return discovered
+
+
+def build_eval_results() -> dict[str, dict]:
+    """Fusionne les résultats historiques avec les évaluations réellement trouvées dans les logs."""
+    merged = dict(EVAL_RESULTS_BASE)
+    merged.update(discover_eval_results())
+    return merged
 
 
 def load_results_csv(csv_path: Path) -> pd.DataFrame | None:
@@ -181,14 +232,14 @@ def plot_comparison():
     print(f"  ✔ Comparaison → {out_path}")
 
 
-def plot_final_metrics_bar():
+def plot_final_metrics_bar(eval_results: dict[str, dict]):
     """Barres des métriques finales (mAP50, mAP50-95) par modèle."""
-    if not EVAL_RESULTS:
+    if not eval_results:
         return
 
-    models = list(EVAL_RESULTS.keys())
-    map50_vals = [EVAL_RESULTS[m]["mAP50"] for m in models]
-    map5095_vals = [EVAL_RESULTS[m]["mAP50_95"] for m in models]
+    models = list(eval_results.keys())
+    map50_vals = [eval_results[m]["mAP50"] for m in models]
+    map5095_vals = [eval_results[m]["mAP50_95"] for m in models]
 
     x = np.arange(len(models))
     width = 0.35
@@ -217,7 +268,7 @@ def plot_final_metrics_bar():
 
     # Annotations sur le split utilisé
     for i, m in enumerate(models):
-        split_label = EVAL_RESULTS[m]["split"]
+        split_label = eval_results[m]["split"]
         ax.text(x[i], -0.06, f"({split_label})", ha="center", fontsize=7.5,
                 color="#666", transform=ax.get_xaxis_transform())
 
@@ -228,14 +279,14 @@ def plot_final_metrics_bar():
     print(f"  ✔ Métriques finales → {out_path}")
 
 
-def print_summary_table():
+def print_summary_table(eval_results: dict[str, dict]):
     """Affiche le tableau de synthèse dans la console."""
     print("\n" + "=" * 70)
-    print("  Tableau de synthèse — Détection YOLOv8")
+    print("  Tableau de synthèse — Détection YOLO")
     print("=" * 70)
     print(f"{'Modèle':<35} | {'Split eval':>18} | {'mAP50':>7} | {'mAP50-95':>9}")
     print("-" * 70)
-    for model_name, metrics in EVAL_RESULTS.items():
+    for model_name, metrics in eval_results.items():
         print(f"{model_name:<35} | {metrics['split']:>18} | "
               f"{metrics['mAP50']:>7.4f} | {metrics['mAP50_95']:>9.4f}")
     print("=" * 70)
@@ -243,9 +294,10 @@ def print_summary_table():
 
 def main():
     OUTPUT.mkdir(parents=True, exist_ok=True)
+    eval_results = build_eval_results()
 
     print("=" * 60)
-    print("  Analyse des résultats d'entraînement YOLOv8")
+    print("  Analyse des résultats d'entraînement YOLO")
     print("=" * 60)
     print(f"\n  Sortie : {OUTPUT}")
 
@@ -256,13 +308,13 @@ def main():
     plot_comparison()
 
     print("\n[3/4] Barres des métriques finales...")
-    plot_final_metrics_bar()
+    plot_final_metrics_bar(eval_results)
 
     print("\n[4/4] Tableau de synthèse...")
-    print_summary_table()
+    print_summary_table(eval_results)
 
     # Sauvegarder le résumé JSON
-    summary = {"models": EVAL_RESULTS}
+    summary = {"models": eval_results}
     with open(OUTPUT / "detection_summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
 
