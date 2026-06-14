@@ -1,0 +1,8 @@
+frame_idx,timestamp_sec,torchere,class_name,confidence,qualite,x1,y1,x2,y2,dark_ratio,flame_ratio,smoke_ratio,mean_intensity,classif_source
+34,1.360,Torchere A,Light-Flare,0.3443,inactive,276,124,350,194,,,,,svm
+1309,52.360,Torchere B,Light-Flare,0.3295,inactive,345,26,362,53,,,,,svm
+1324,52.960,Torchere B,Light-Flare,0.3443,inactive,312,91,328,135,,,,,svm
+1329,53.160,Torchere B,Light-Flare,0.3612,inactive,305,95,320,135,,,,,svm
+1329,53.160,Torchere B,Light-Flare,0.3420,inactive,304,52,321,137,,,,,svm
+1330,53.200,Torchere B,Light-Flare,0.4295,inactive,303,42,321,136,,,,,svm
+1331,53.240,Torchere B,Light-Flare,0.3719,bonne,302,40,321,137,,,,,svm

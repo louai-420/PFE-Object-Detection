@@ -1,0 +1,24 @@
+=================================================================
+  Ablation Study — Contribution des features
+=================================================================
+
+[INFO] Chargement des features...
+  Hyperparamètres du modèle sauvegardé : C=10, gamma=0.01
+
+Groupe retiré        |   Accuracy |   F1-macro |       Δ F1
+-----------------------------------------------------------------
+AUCUN (baseline)     |     0.9778 |     0.9591 |          —
+-----------------------------------------------------------------
+sans Hist. HSV        |     0.9432 |     0.9056 |   -0.0535
+sans Ratio sombre     |     0.9771 |     0.9579 |   -0.0012
+sans Intensité RGB    |     0.9771 |     0.9579 |   -0.0012
+sans Texture LBP      |     0.9759 |     0.9542 |   -0.0049
+sans GLCM             |     0.9771 |     0.9577 |   -0.0014
+sans Ratio fumée      |     0.9778 |     0.9591 |    0.0000
+
+[INFO] Génération du graphique d'ablation...
+
+  Graphique : C:\Users\Rayan\Desktop\PFE\PFE-Object-Detection\outputs\classification\svm\ablation_study.png
+  Résultats : C:\Users\Rayan\Desktop\PFE\PFE-Object-Detection\outputs\classification\svm\ablation_results.txt
+
+[DONE] Ablation study terminée.

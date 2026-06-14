@@ -1,0 +1,21 @@
+frame_idx,timestamp_sec,torchere,class_name,confidence,qualite,x1,y1,x2,y2,dark_ratio,flame_ratio,smoke_ratio,mean_intensity,classif_source
+42,1.401,ambient,Light-Smoke,0.8597,ambient_smoke,246,6,608,258,,,,,svm
+42,1.401,Torchere A,Medium-Flare,0.3125,inactive,237,412,265,432,,,,,svm
+43,1.435,ambient,Light-Smoke,0.8484,ambient_smoke,246,7,607,258,,,,,svm
+43,1.435,Torchere A,Medium-Flare,0.2821,inactive,236,412,265,432,,,,,svm
+44,1.468,ambient,Light-Smoke,0.8157,ambient_smoke,247,7,608,257,,,,,svm
+44,1.468,Torchere A,Medium-Flare,0.2976,inactive,237,412,265,432,,,,,svm
+83,2.769,ambient,Light-Smoke,0.8534,ambient_smoke,254,8,609,261,,,,,svm
+83,2.769,Torchere B,Dark-Flare,0.3093,inactive,14,104,148,159,,,,,svm
+87,2.903,ambient,Light-Smoke,0.8597,ambient_smoke,251,8,611,260,,,,,svm
+87,2.903,Torchere B,Dark-Flare,0.2968,inactive,14,106,146,161,,,,,svm
+375,12.513,Torchere C,Medium-Flare,0.2864,inactive,253,142,290,163,,,,,svm
+375,12.513,Torchere C,Light-Smoke,0.8320,inactive,282,0,724,255,,,,,svm
+376,12.546,Torchere C,Light-Smoke,0.8062,inactive,280,0,721,249,,,,,svm
+377,12.579,Torchere C,Light-Smoke,0.8160,inactive,282,0,727,247,,,,,svm
+378,12.613,Torchere C,Medium-Flare,0.2963,inactive,255,142,289,163,,,,,svm
+378,12.613,Torchere C,Light-Smoke,0.8144,inactive,284,0,732,254,,,,,svm
+379,12.646,Torchere C,Light-Smoke,0.7877,inactive,284,0,743,253,,,,,svm
+380,12.679,Torchere C,Light-Smoke,0.8123,inactive,285,0,735,258,,,,,svm
+381,12.713,Torchere C,Light-Smoke,0.7958,inactive,285,0,719,261,,,,,svm
+382,12.746,Torchere C,Light-Smoke,0.7938,inactive,285,0,726,251,,,,,svm

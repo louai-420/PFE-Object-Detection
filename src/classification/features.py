@@ -64,43 +64,39 @@ def compute_mean_intensity(roi_bgr):
 
 def _lbp_uniform(gray, n_points=8, radius=1):
     """
-    Implémentation numpy du LBP uniforme — identique à skimage.
-    
-    Un pattern est 'uniforme' si le nombre de transitions 0→1 et 1→0
-    dans le code binaire circulaire est ≤ 2.
+    LBP uniforme — sémantique skimage.feature.local_binary_pattern(method='uniform').
+
+    Un pattern est dit 'uniforme' lorsque son code binaire circulaire présente
+    au plus deux transitions 0->1 ou 1->0. Pour ces patterns, l'étiquette de
+    sortie est le nombre de bits à 1 (entier dans [0, n_points]). Tous les
+    patterns non uniformes reçoivent l'étiquette commune n_points + 1. Il y a
+    donc exactement n_points + 2 étiquettes distinctes — convention qui
+    s'aligne sur le `range=(0, n_points + 2)` du `np.histogram` appelant.
     """
     h, w = gray.shape
-    # Angles des voisins
     angles = [2 * np.pi * i / n_points for i in range(n_points)]
-    lbp = np.zeros((h, w), dtype=np.int32)
     center = gray.astype(np.float32)
-    
-    neighbors = []
+
+    # Bits du code circulaire : voisin_i >= centre
+    neighbor_bits = []
     for angle in angles:
         dx = int(round(radius * np.cos(angle)))
         dy = int(round(-radius * np.sin(angle)))
         shifted = np.roll(np.roll(gray, -dy, axis=0), -dx, axis=1).astype(np.float32)
-        neighbors.append(shifted >= center)
-    
-    # Encoder le pattern binaire
-    for i, nb in enumerate(neighbors):
-        lbp += nb.astype(np.int32) << i
-    
-    # Compter les transitions pour le mode 'uniform'
-    codes = np.zeros((h, w), dtype=np.int32)
+        neighbor_bits.append((shifted >= center).astype(np.int32))
+
+    # Popcount du code (nombre de bits à 1)
+    bit_count = np.zeros((h, w), dtype=np.int32)
+    for bit in neighbor_bits:
+        bit_count += bit
+
+    # Nombre de transitions 0/1 dans le code circulaire
+    transitions = np.zeros((h, w), dtype=np.int32)
     for i in range(n_points):
-        b_curr = (lbp >> i) & 1
-        b_next = (lbp >> ((i + 1) % n_points)) & 1
-        codes += (b_curr != b_next).astype(np.int32)
-    
-    # Pattern uniforme : transitions ≤ 2
-    lbp_out = np.zeros((h, w), dtype=np.int32)
-    for i, nb in enumerate(neighbors):
-        lbp_out += np.where(codes <= 2, nb.astype(np.int32) << i, 0)
-    
-    # Les patterns non-uniformes reçoivent le code (n_points + 1)
-    lbp_out = np.where(codes <= 2, lbp_out.sum(axis=-1) if lbp_out.ndim > 2 else lbp_out, n_points + 1)
-    return lbp_out
+        transitions += (neighbor_bits[i] != neighbor_bits[(i + 1) % n_points]).astype(np.int32)
+
+    # Uniforme : étiquette = popcount ; non uniforme : n_points + 1
+    return np.where(transitions <= 2, bit_count, n_points + 1).astype(np.int32)
 
 
 def compute_lbp_histogram(roi_bgr, n_points=8, radius=1):
@@ -233,3 +229,7 @@ def extract_all_features(roi_bgr):
         np.array([compute_smoke_ratio(roi_bgr)]),  # 1 dim
     ]
     return np.concatenate(features)
+
+
+# Alias français utilisé par realtime_monitor.py
+extraire_features = extract_all_features

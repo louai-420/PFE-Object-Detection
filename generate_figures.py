@@ -134,7 +134,7 @@ def fig_features_113d():
     ax.text(1.1, 2.5, "224×224 px", ha='center', color=GRAY, fontsize=9)
 
     features = [
-        ("Histogramme\nHSV", "96 dim", "#E8F5E9", SONATRACH_GREEN, 3.8),
+        ("Histogramme\nHSV", "94 dim", "#E8F5E9", SONATRACH_GREEN, 3.8),
         ("Texture\nLBP", "10 dim", "#FFF3E0", ORANGE, 5.1),
         ("Matrice\nGLCM", "4 dim", "#F3E5F5", "#7B1FA2", 6.4),
         ("Ratio\nFumée", "1 dim", "#FFEBEE", RED, 7.7),

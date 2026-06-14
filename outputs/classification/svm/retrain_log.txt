@@ -1,0 +1,57 @@
+============================================================
+  SVM — Classification qualité de combustion
+============================================================
+
+[1/5] Chargement et extraction des features...
+
+  train3/bonne       :  1241 ROI chargées
+  train3/moyenne     :  1167 ROI chargées
+  train3/mauvaise    :  5054 ROI chargées
+  val3/bonne       :   271 ROI chargées
+  val3/moyenne     :   266 ROI chargées
+  val3/mauvaise    :  1091 ROI chargées
+  test3/bonne       :   267 ROI chargées
+  test3/moyenne     :   256 ROI chargées
+  test3/mauvaise    :  1096 ROI chargées
+
+  Résumé :
+    Train :  7462 ROI  (113 features)
+    Val   :  1628 ROI
+    Test  :  1619 ROI
+
+[2/5] GridSearchCV (C, gamma) sur train+val...
+Fitting 5 folds for each of 16 candidates, totalling 80 fits
+
+  Meilleurs hyperparamètres : {'svm__C': 10, 'svm__gamma': 0.01}
+  Meilleur F1-macro (CV)    : 0.9469
+
+[3/5] Évaluation sur test3 (jamais vu)...
+
+              precision    recall  f1-score   support
+
+       bonne     0.9375    0.9551    0.9462       267
+     moyenne     0.9339    0.9375    0.9357       256
+    mauvaise     0.9982    0.9927    0.9954      1096
+
+    accuracy                         0.9778      1619
+   macro avg     0.9565    0.9618    0.9591      1619
+weighted avg     0.9780    0.9778    0.9779      1619
+
+  Accuracy    : 0.9778
+  F1-macro    : 0.9591
+  Rapport sauvegardé : C:\Users\Rayan\Desktop\PFE\PFE-Object-Detection\outputs\classification\svm\classification_report.txt
+
+[4/5] Matrices de confusion...
+  Matrices sauvegardées dans : C:\Users\Rayan\Desktop\PFE\PFE-Object-Detection\outputs\classification\svm
+
+[5/5] Sauvegarde du modèle...
+  Modèle sauvegardé : C:\Users\Rayan\Desktop\PFE\PFE-Object-Detection\outputs\classification\svm\svm_model.pkl
+
+============================================================
+  [DONE] Entraînement SVM terminé
+============================================================
+  Accuracy    : 0.9778
+  F1-macro    : 0.9591
+  Résultats   : C:\Users\Rayan\Desktop\PFE\PFE-Object-Detection\outputs\classification\svm
+
+  Prochaine étape : python -m src.classification.ablation_svm
